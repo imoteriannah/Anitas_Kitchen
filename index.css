@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+#banner {
+    width: 100%;
+    height: 500px;
+    background-image: url("./assets/backgrounds/landing.jpg");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banner img {
+    width: 20%;
+    margin: auto;
+}
+
+#banner h3 {
+    width: 20%; 
+    margin: auto;
+    align-content: justify;
+}
+
+.main_navigation>ul>li>a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.main_navigation>ul>li{
+    text-decoration: none;
+}
+/*.main_navigation {
+    background-color: blue;
+}*/
