@@ -112,8 +112,20 @@ main .fast_food, main .drinks_container {
 }
 .fast_food_description {
     text-align: left;
+    margin: 20px;
 }
-
+.fast_food_description h2,
+.fast_food_description h3, 
+.fast_food_description p,  
+.fast_food_description button {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.drinks_description h2, .drinks_description p,
+.drinks_description button, .drinks_description h3{
+    padding-top: 10px;
+    margin-top: 10px;
+}
 .drinks_images{
     width: 50%;
     display: flex;
@@ -121,7 +133,7 @@ main .fast_food, main .drinks_container {
 }
 
 .drinks_image{
-    width:45%;
+    width:50%;
     height: 300px;
 }
 .fast_food_images {
