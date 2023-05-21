@@ -23,9 +23,10 @@ html {
 }
 
 #banner h3 {
-    width: 20%; 
+    width: 30%; 
     margin: auto;
-    align-content: justify;
+    text-align: center;
+    color: white;
 }
 
 .main_navigation>ul>li>a {
