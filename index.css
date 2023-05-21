@@ -103,11 +103,50 @@ main .fast_food, main .drinks_container {
     height: 200px;
     background-image: url("./assets/backgrounds/subscribe.jpg");
     background-size: contain;
+    color: white;
 
+}
+
+.subscribe h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer {
     height: 300px;
     background-color: rgb(71, 197, 21);
     color: white;
+}
+.footer_container {
+    width: 50%;
+    margin: auto;
+}
+
+.burger_foot {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.burger_foot_item {
+    padding: 20px;
+}
+
+.burger_foot p{
+    font-size: 30px;
+}
+
+.social_links {
+    width: 40rem;
+    margin: auto;
+    padding: 10px;
+}
+
+.social_link{
+    padding: 15px;
+    margin: 20px;
 }
