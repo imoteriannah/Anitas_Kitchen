@@ -169,6 +169,7 @@ main .fast_food, main .drinks_container {
 .dishes_types {
     display: flex;
     padding: 10px;
+    text-decoration: none;
 }
 .dishes_type {
     padding: 20px 50px;
@@ -187,11 +188,17 @@ main .fast_food, main .drinks_container {
 .dishes_image {
     display: flex;
     height: 150px;
-    width: 200px;
+    width: 250px;
     margin: 10px;
     padding: 10px;
     flex-direction: column;
     justify-content: space-evenly;
+    text-align: center;
+}
+
+.dishes_image h4 {
+    margin-top: 5px;
+    color: green;
 }
 .testimonials_container {
     width: 100%;
