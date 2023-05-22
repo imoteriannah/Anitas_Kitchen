@@ -162,6 +162,15 @@ main .fast_food, main .drinks_container {
     position: relative;
     top:100px;
 }
+.testimonials {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 60%;
+}
+.testimonials_item {
+    width:35%;
+}
 
 .subscribe {
     width: 100%;
