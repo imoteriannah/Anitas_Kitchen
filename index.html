@@ -4,6 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Anita's Kitchen</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
        <header class="main_header">
@@ -47,7 +49,7 @@
                     <button>VIEW GALLERY</button>
                 </div>
             </aritcle>
-            <article class="drinks_container">
+            <div class="drinks_container">
                 <div class="drinks_images">
                     <img src="./assets/drink1.jpg" alt="drinks image1" class="drinks_image">
                     <img src="./assets/drink2.jpg" alt="drinks image2" class="drinks_image">
@@ -62,12 +64,15 @@
                     </p>
                     <button>VIEW GALLERY</button>
                 </div>
-            </article>
+            </div>
+
+            <!-- Dishes Section below-->
+
             <article class="dishes_container">
                 <div class="dishes_items">
                     <nav class="dishes_navigation">
                         <ul class="dishes_types">
-                            <li class="dishes_type">Fast Food</li>
+                            <li class="dishes_type first">Fast Food</li>
                             <li class="dishes_type">Drinks</li>
                             <li class="dishes_type">Chicken</li>
                             <li class="dishes_type">Rice</li>
@@ -89,6 +94,9 @@
                     </section>
                 </div>
             </article>
+
+            <!--Testimonials Section below-->
+
             <article class="testimonials_container"> 
                 <div class="testimonials">
                     <section class="testimonial testimonials_item">
@@ -107,6 +115,9 @@
                     </section>
                 </div>
             </article>
+
+            <!--Call to Subscribe Section below-->
+
             <article class="subscribe">
                 <h3>Get our daily food items delivered to your email</h3>
                 <form>
@@ -115,17 +126,20 @@
                 </form>
             </article>
        </main>
+       <!--Footer Section Below-->
        <footer>
         <div class="footer_container">
             <div class="burger_foot">
                 <img src="./assets/footerlogos/logo_white.png" alt="burger image" class="footer_logo">
                 <p>MENU</p>
             </div>
-            <P>That's what we are</P>
-            <div class="social_links">
-                <img src="./assets/footerlogos/facebook.png" alt="facebook link" class="social_link">
-                <img src="./assets/footerlogos/twitter.png" alt="twitter link" class="social_link">
-                <img src="./assets/footerlogos/pinterest.png" alt="pinterest link" class="social_link">
+            <h3>That's what we are</h3>
+            <div>
+                <ul class="social_links">
+                    <li class="fa fa-facebook"><img src="./assets/footerlogos/facebook.png" alt="facebook link"></li>
+                    <li class="fa fa-twitter"><img src="./assets/footerlogos/twitter.png" alt="twitter link"></li>
+                    <li class="fa fa-pinterest"><img src="./assets/footerlogos/pinterest.png" alt="pinterest link"></li>
+                </ul>
             </div>
         </div>
        </footer>
