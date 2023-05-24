@@ -9,7 +9,7 @@
 * direct the server to the index.html file to load as homepage
 * voila!! the page will be served once loaded
 * After forking, just locate the index.html file and double click or open in a browser to see the page content
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+{This is a basic webapp using html and css only, and code here is not dependent on any other code.}
 ## Known Bugs
 {No known issues for now }
 ## Technologies Used
