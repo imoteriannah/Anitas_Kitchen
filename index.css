@@ -295,6 +295,8 @@ footer {
     margin: auto;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 .burger_foot {
@@ -303,6 +305,10 @@ footer {
     display: flex;
     padding-top: 50px;
     align-items: center;
+}
+
+.burg_foot_menu {
+    margin-left: 30px;
 }
 
 .burger_foot_item {
@@ -314,7 +320,7 @@ footer {
 }
 
 .social_links {
-    width: 40rem;
+    width: 40%;
     margin: auto;
     padding: 10px;
     display: flex;
@@ -322,6 +328,24 @@ footer {
 }
 
 .social_link{
-    padding: 15px;
-    margin: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    
 }
+
+.subscribe_form {
+    display: flex;
+    width 80%;
+    margin: auto;
+}
+
+.subscribe_form input .subscribe_form button{
+    margin:10px;
+    w
+}
+
+
+/*.fa-facebook, .fa-twitter, .fa-pinterest {
+    background-color: blue;
+}*/
