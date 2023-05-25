@@ -60,6 +60,18 @@ html {
         display: block;
         height: auto;
     }
+
+    .testimonials_container {
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 60%;
+    }
 }
 
 ul {
@@ -123,8 +135,6 @@ ul {
     padding: 5px;
     height: 300px;
     margin: 10px;
-    /*remove the below border when done*/
-    border: 1px solid blue;
 }
 
 main .fast_food, main .drinks_container {
@@ -135,8 +145,6 @@ main .fast_food, main .drinks_container {
 .drinks_container {
     display: flex;
     flex-direction: row-reverse;
-    /*remove the below border when done*/
-    border: 1px solid blue;
     margin: 10px;
 }
 .fast_food_description, .drinks_description {
@@ -167,6 +175,7 @@ main .fast_food, main .drinks_container {
     width: 50%;
     display: flex;
     margin: 5px;
+    box-shadow: 4px 10px ;
 }
 
 .drinks_image{
@@ -261,8 +270,11 @@ input[type="email"]{
     align-items: center;
     position: relative;
     top: 60px;
-    /*remove the border settings when done*/
     border: 1px solid blue;
+}
+
+.footer_container h3 {
+    margin: 10px;
 }
 .testimonials_item {
     width:48%;
@@ -327,25 +339,23 @@ footer {
     justify-content: space-around;
 }
 
-.social_link{
-    width: 30px;
-    height: 30px;
-    background-color: green;
-    
-}
-
 .subscribe_form {
     display: flex;
     width 80%;
-    margin: auto;
+    justify-content: space-evenly;
 }
 
 .subscribe_form input .subscribe_form button{
     margin:10px;
-    w
+}
+.subscribe_form input{
+    width: 55%;
+
 }
 
-
-/*.fa-facebook, .fa-twitter, .fa-pinterest {
-    background-color: blue;
-}*/
+button {
+     background-color: green;
+     padding: 10px;
+     width: 20%
+     margin-left: 20px;
+}
