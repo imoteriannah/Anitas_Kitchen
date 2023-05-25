@@ -16,7 +16,7 @@
 {HTML, CSS, Git, Github}
 
 ## Github Pages Link
-https://github.io/imoteriannah/anitas_kitchen.com
+https://imoteriannah.github.io/Anitas_Kitchen/
 ## Support and contact details
 {Feel free to make contributions to the code should you choose to- Contact:Imoter Iannah | imoteriannah@gmail.com | 07026485038}
 ### License
